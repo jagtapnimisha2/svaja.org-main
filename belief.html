@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belief</title>
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body {
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .navbar-nav .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+
+        .navbar-nav .nav-item .dropdown-menu {
+            border-radius: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #EF7F1A;
+            color: #fff !important;
+        }
+
+        .nav-link {
+            color: #3A4291;
+        }
+
+        .nav-link:hover {
+            color: #EF7F1A !important;
+        }
+
+
+        #sub-link a {
+            color: #3A4291;
+            text-decoration: none;
+            position: relative;
+        }
+
+
+        .responsive-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .section-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .corevalue-para {
+            line-height: 24px;
+        }
+
+        header.sticky {
+            position: -webkit-sticky !important;
+            position: sticky !important;
+            top: 0 !important;
+            z-index: 999;
+            background-color: #fff;
+        }
+    </style>
+
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="responsive-design">
+
+    <!-- header start  -->
+    <header class="sticky header-area">
+        <div class="container-fluid main-header-area ">
+            <nav class="navbar navbar-expand-lg" id="nav-header">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html" style="padding-top: 18px;">
+                        <img style="width: 150px;" src="./img/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon d-flex justify-content-center"><img width="50px"
+                                src="./img/hamburger.png" alt=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul id="sub-link" class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About us
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item inner_link" href="origin.html">Our origin</a>
+                                    <a class="dropdown-item inner_link" href="belief.html">Our belief</a>
+                                    <a class="dropdown-item inner_link" href="leadership.html">Leadership</a>
+                                    <!-- <a class="dropdown-item inner_link" href="#">Advisory
+                                        Board</a> -->
+                                    <!-- <a class="dropdown-item inner_link" href="#">Mentors</a> -->
+                                    <!-- <a class="dropdown-item inner_link" href="#">Team</a> -->
+                                    <a class="dropdown-item inner_link" href="partners.html">Partners</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Our work
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item inner_link" href="education.html">Education</a>
+                                    <a class="dropdown-item inner_link" href="cb-and-t.html">Capacity
+                                        Building</a>
+                                    <a class="dropdown-item inner_link" href="livelihood.html">Livelihood</a>
+                                    <a class="dropdown-item inner_link" href="bcc.html">Behaviour change</a>
+                                    <a class="dropdown-item inner_link" href="environment.html">Environment</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Resources
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item inner_link" href="gallery.html">Gallery</a>
+                                    <!-- <a class="dropdown-item inner_link" href="news.html">News & Updates</a>
+                                    <a class="dropdown-item inner_link" href="award.html">Award & -->
+                                    <!-- Recognition</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="engage.html"> Engage with us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- header end  -->
+    <!-- our belief section start  -->
+    <section class="bsb-hero-2 px-3 mt-4" style="margin-top: 70px !important;">
+        <div class="container overflow-hidden text-center" style="margin-top: 33px !important;">
+            <div
+                class="row gy-3 gy-lg-0 d align-items-lg-center justify-content-lg-between align-items-center justify-content-center mt-4">
+                <div class="col-12">
+                    <h4 class=" simple_text text-center col-12">Our belief</h4>
+                    <p class="my-4" style="line-height: 24px; text-align: justify;">The belief of Svaja is that all
+                        people, no matter who they are (child or
+                        adult, rural or urban, poor or wealthy, employed or unemployed) have the potential to acquire
+                        capabilities that will ensure that they bring positive changes in their lives, better income
+                        opportunities, and lead a better quality of life. However, it is required to provide an
+                        enabling environment to these in terms of access, information, resources, etc. through focused
+                        interventions to achieve it. Through Svaja, we aim to bridge the gap so that all become
+                        adequately capable driving the change for betterment of their own life and taking society along.
+                        In a nutshell, we would like to equip the people (needy section) to take charge (of being
+                        adequately capable) of their own development with access of knowledge, skill, information, and
+                        resources. Being adequately capable will help them achieve the dream for betterment of own life.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our belief section end  -->
+    <div class="container">
+        <div style="text-align: start !important;">
+            <p style="font-size: 22px !important; color: #3A4291;"> <span>Core values </span></p>
+        </div>
+        <div>
+            <div class="text-start">
+                <p class="py-4" style=" color: #000 !important; text-align: justify;">Svaja
+                    strongly
+                    believe that any conduct
+                    and action
+                    should be value
+                    oriented. These values will
+                    directly lead the purpose of organization existence. These five values governed Svaja from the day
+                    of its inception.</p>
+                <p class="corevalue-para"><span style="color: #3A4291;">Integrity:</span> we will be transparent, fair,
+                    and honest in each and
+                    every conduct
+                    and action.</p>
+                <p class="corevalue-para"><span style="color: #3A4291;">Equality:</span> we will bring equality in all
+                    our action and conduct to
+                    ensure the
+                    existence of the
+                    organization’s purpose.</p>
+                <p class="corevalue-para"><span style="color: #3A4291;">Responsibility:</span> we will be responsible
+                    for all the action and
+                    conduct towards
+                    the community
+                    and stakeholders.</p>
+                <p class="corevalue-para"><span style="color: #3A4291;">Simplicity:</span> Our conduct and action will
+                    be simple to avoid waste,
+                    complexity,
+                    value clashes
+                    and difficulties for all stakeholders and community.</p>
+                <p class="corevalue-para"><span style="color: #3A4291;">Commitment:</span> Our commitment is to bring
+                    real change and to
+                    transform changes
+                    for the
+                    longer-term perspective to ensure sustainability.</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer start  -->
+    <!-- footer end  -->
+    <div class="mt-5" style="position: relative; bottom: 1; left: 0;">
+        <img class="footer-image" style="z-index: 1 !important; position: absolute; bottom: 1; left: 0;"
+            src="./img/desktop_down.png" alt="footer-image">
+
+
+        <div class="d-flex justify-content-start align-items-center footer-content-section"
+            style="position: absolute; left: 0; width: 100%; top: 25px; z-index: 3 !important;">
+            <p> All rights reserved | <a style="color: blue;" href="index.html" target="_blank">Svaja</a></p>
+        </div>
+    </div>
+    <!-- JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

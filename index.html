@@ -1,0 +1,716 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>svaja.org</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- navbar hover effect css start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/nav.css">
+
+    <style>
+        body {
+            /* height: 100vh; */
+            overflow-x: hidden;
+            width: 100%;
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        .navbar-nav .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+
+        .navbar-nav .nav-item .dropdown-menu {
+            border-radius: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #EF7F1A;
+            color: #fff !important;
+        }
+
+        .nav-link:hover {
+            color: #3A4291 !important;
+        }
+
+        .responsive-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .section-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .card-header {
+            background-color: #EF7F1A !important;
+            color: #f8f9fa;
+        }
+
+        @media only screen and (max-width: 992px) and (max-width: 1200px) {
+            .section_title {
+                text-align: center;
+            }
+        }
+
+        @media only screen and (max-width:700px) {
+            .img-box img {
+                width: 70px;
+            }
+        }
+
+        .inner_link {
+            color: #000 !important;
+        }
+
+        @media screen and (max-width:998px) {
+            .main-header-area {
+                /* background: url(./img/ml-05.png); */
+                background-color: red !important;
+            }
+
+            .socail_links {
+                display: none;
+            }
+        }
+
+        header.sticky {
+            position: -webkit-sticky !important;
+            position: sticky !important;
+            top: 0 !important;
+            z-index: 999;
+            background-color: #fff;
+        }
+    </style>
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="responsive-design">
+    <!-- header-start -->
+
+
+
+    <div class="header-area">
+        <div class="header-top_area px-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-md-12 col-lg-8">
+                        <div class="short_contact_list">
+                            <ul>
+                                <li><a style="color: #000 !important;" href="#"> <i
+                                            class="fa fa-phone"></i>+91-956-065-5661</a></li>
+                                <li><a style="color: #000 !important;" href="#"> <i
+                                            class="fa fa-envelope"></i>info@svaja.org</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-lg-4  socail_links">
+                        <div class=" socail_links">
+                            <ul class="d-flex justify-content-end">
+                                <li style="margin-right: 10px !important;">
+                                    <a style="color: #000 !important;" href="https://www.facebook.com/SvajaFoundation"
+                                        target="_blank">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                        <a href="#">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li> -->
+                                <li>
+                                    <a style="color: #000 !important;"
+                                        href="https://www.linkedin.com/company/svaja-foundation/" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar  -->
+
+    </div>
+
+
+    <header class="sticky header-area">
+        <div class="container-fluid main-header-area ">
+            <nav class="navbar navbar-expand-lg" id="nav-header">
+                <div class="container">
+                    <!-- style="padding-top: 15px;" -->
+                    <!-- margin-left: 60px; -->
+                    <a class="navbar-brand" href="index.html" style="padding-top: 22px;" >
+                        <img style="width: 150px;" src="./img/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon d-flex justify-content-center"><img width="50px"
+                                src="./img/hamburger.png" alt=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul id="sub-link" class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About us
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item inner_link" href="origin.html">Our origin</a>
+                                    <a class="dropdown-item inner_link" href="belief.html">Our belief</a>
+                                    <a class="dropdown-item inner_link" href="leadership.html">Leadership</a>
+                                    <!-- <a class="dropdown-item inner_link" href="#">Advisory
+                                        Board</a> -->
+                                    <!-- <a class="dropdown-item inner_link" href="#">Mentors</a> -->
+                                    <!-- <a class="dropdown-item inner_link" href="#">Team</a> -->
+                                    <a class="dropdown-item inner_link" href="partners.html">Partners</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Our work
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item inner_link" href="education.html">Education</a>
+                                    <a class="dropdown-item inner_link" href="cb-and-t.html">Capacity
+                                        Building</a>
+                                    <a class="dropdown-item inner_link" href="livelihood.html">Livelihood</a>
+                                    <a class="dropdown-item inner_link" href="bcc.html">Behaviour change</a>
+                                    <a class="dropdown-item inner_link" href="environment.html">Environment</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Resources
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item inner_link" href="gallery.html">Gallery</a>
+                                    <!-- <a class="dropdown-item inner_link" href="news.html">News & Updates</a>
+                                    <a class="dropdown-item inner_link" href="award.html">Award & -->
+                                    <!-- Recognition</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="engage.html"> Engage with us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- slider start  -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide mt20" data-bs-ride="carousel">
+        <div class="carousel-indicators bottom-sm-0 position-absolute">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="./img/banner/banner1.jpg" class="d-block w-100" alt="banner1">
+                <div class="carousel-caption d-none d-md-block">
+                    <figure class="text-center py-2 rounded-pill">
+                        <blockquote class="blockquote">
+                            <p
+                                style="color: #fff; font-size: 22px !important; text-shadow: 10px 0 10px rgba(0,0,0,.94);">
+                                Life isn't about finding yourself. Life
+                                is about creating yourself"
+                            </p>
+                        </blockquote>
+                        <figcaption
+                            style="color: #fff !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); text-align: right !important; font-size: 20px !important;"
+                            class="blockquote-footer">
+                            By George Bernard Shaw.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="./img/banner/banner2.png" class="d-block w-100" alt="banner2">
+                <div class="carousel-caption d-none d-md-block">
+                    <figure class="text-center py-2 rounded-pill">
+                        <blockquote class="blockquote">
+                            <p
+                                style="color: #fff; font-size: 22px !important; text-shadow: 10px 0 10px rgba(0,0,0,.94);">
+                                Live as if you were to die tomorrow; learn as if you were to live
+                                forever.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer"
+                            style="color: #fff !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); text-align: right !important; font-size: 20px !important;">
+                            By Mahatma Gandhi
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner/banner3.png" class="d-block w-100" alt="banner3">
+                <div class="carousel-caption d-none d-md-block">
+                    <figure class="text-center py-2 rounded-pill">
+                        <blockquote class="blockquote">
+                            <p
+                                style="color: #fff; font-size: 22px !important; text-shadow: 10px 0 10px rgba(0,0,0,.94);">
+                                You have to dream before your dreams can come true.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer"
+                            style="color: #fff !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); text-align: right !important; font-size: 20px !important;">
+                            By Dr. APJ Abdul Kalam
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner/banner4.png" class="d-block w-100" alt="banner4">
+                <div class="carousel-caption d-none d-md-block">
+                    <figure class="text-center py-2 rounded-pill">
+                        <blockquote class="blockquote">
+                            <p
+                                style="color: #fff; font-size: 22px !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); font-weight: 900;">
+                                Everything comes to us that belongs to us if we create the capacity
+                                to receive it.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer"
+                            style="color: #fff !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); text-align: right !important; font-size: 20px !important;">
+                            By Rabindranath Tagore
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner/banner6.png" class="d-block w-100" alt="banner4">
+                <div class="carousel-caption d-none d-md-block">
+                    <figure class="text-center py-2 rounded-pill">
+                        <blockquote class="blockquote">
+                            <p
+                                style="color: #fff; font-size: 22px !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); font-weight: 900;">
+                                All power is within you. You can do anything and everything.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer"
+                            style="color: #fff !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); text-align: right !important; font-size: 20px !important;">
+                            By Swami Vivekananda
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- <div class="carousel-item">
+                <img src="./img/banner/banner5.png" class="d-block w-100" alt=".banner5">
+                <div class="carousel-caption d-none d-md-block">
+                    <figure class="text-center py-2 rounded-pill">
+                        <blockquote class="blockquote">
+                            <p
+                                style="color: #fff; font-size: 22px !important; text-shadow: 10px 0 10px rgba(0,0,0,.94);">
+                                Everything comes to us that belongs to us if we create the capacity
+                                to receive it.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer"
+                            style="color: #fff !important; text-shadow: 10px 0 10px rgba(0,0,0,.94); text-align: right !important; font-size: 20px !important;">
+                            By Rabindranath Tagore
+                        </figcaption>
+                    </figure>
+                </div>
+            </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider_area_end -->
+    <!-- our mission start -->
+    <section class="bsb-hero-2 px-3">
+        <div class="container overflow-hidden text-center">
+            <div
+                class="row gy-3 gy-lg-0 d align-items-lg-center justify-content-lg-between align-items-center justify-content-center mt-4">
+                <div class="col-12">
+                    <h4 class=" simple_text text-center col-12">Mission</h4>
+                    <p class="my-2">Helping individuals and communities from the marginalized and disadvantaged
+                        sections
+                        of the society to lead a better quality of life by, improving their capabilities and access
+                        to
+                        resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our mission end -->
+    <!-- vission start  -->
+    <section class="bsb-hero-2 px-3">
+        <div class="container overflow-hidden text-center">
+            <div
+                class="row gy-3 gy-lg-0 d align-items-lg-center justify-content-lg-between align-items-center justify-content-center mt-4">
+                <div class="col-12">
+                    <h4 class=" simple_text text-center col-12">Vision</h4>
+                    <p class="my-2">A progressive society having strong belief in human’s ability to improve their
+                        life
+                        conditions and quality of life, and facilitates socio-economic empowerment by catalysing the
+                        process of unhindered individual’s growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- vission end  -->
+    <!-- believe section start -->
+    <div class="container">
+        <section class="bsb-hero-2 px-3">
+            <div class="container overflow-hidden text-center">
+                <div
+                    class="row gy-3 gy-lg-0 d align-items-lg-center justify-content-lg-between align-items-center justify-content-center mt-4">
+                    <div class="col-12">
+                        <h4 class="simple_text text-center col-12" style="position: relative;"> We
+                            believe</h4>
+                        <p class=" my-2">Each individual in the society if provided with apt opportunity
+                            to
+                            acquire
+                            required
+                            capabilities in a timely manner has the potential to bring about positive changes in
+                            one’s
+                            own life and fulfil the dreams.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- believe section end -->
+        <!-- we do start -->
+        <section class="bsb-hero-2 px-3">
+            <div class="container overflow-hidden text-center">
+                <div
+                    class="row gy-3 gy-lg-0 d align-items-lg-center justify-content-lg-between align-items-center justify-content-center mt-4">
+                    <div class="col-12">
+                        <h4 class=" simple_text text-center col-12"> We do</h4>
+                        <p class="my-2">We help individuals build capabilities, which will equip them to
+                            pursue and
+                            realize
+                            their dreams</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- we do end  -->
+        <!-- counter_area_start  -->
+        <div class="counter_area mt-4 mb-5">
+            <div class="container">
+                <div class="counter_bg overlay">
+                    <div class="row d-flex mx-auto flaticon-icons">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="single_counter d-flex align-items-center justify-content-start">
+                                <div class="icon">
+                                    <!-- <i style="color: #000 !important;" class="flaticon-calendar"></i> -->
+                                    <img style=" width: 50px !important" src="img/map.png" alt="">
+                                </div>
+                                <div class="events">
+                                    <h3 class="counter">3</h3>
+                                    <p style="color: #000 !important;">State</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div
+                                class="single_counter d-flex align-items-center justify-content-start align-items-center">
+                                <div class="icon">
+                                    <!-- <i style="color: #000 !important;" class="flaticon-heart-beat"></i> -->
+                                    <img style=" width: 50px !important" src="img/sourcing.png" alt="">
+                                </div>
+                                <div class="events">
+                                    <h3 class="counter">05</h3>
+                                    <p style="color: #000 !important;">Districts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="single_counter d-flex align-items-center justify-content-start">
+                                <div class="icon">
+                                    <!-- <i style="color: #000 !important; width: 50px;" class="flaticon-in-love"></i> -->
+                                    <img style=" width: 50px !important" src="img/intervention.png" alt="">
+                                </div>
+                                <div class="events">
+                                    <h3 class="counter">03</h3>
+                                    <p style="color: #000 !important;">Interventions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="single_counter d-flex align-items-center justify-content-start">
+                                <div class="icon">
+                                    <!-- <i style="color: #000 !important; width: 50px !important" class="flaticon-hug"></i> -->
+                                    <img style=" width: 50px !important" src="img/volunteer.png" alt="">
+                                </div>
+                                <div class="events">
+                                    <h3 class="counter">42</h3>
+                                    <p style="color: #000 !important;">Beneficiaries</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- counter_area_end  -->
+        <!-- about section start  -->
+        <div class="container my-4">
+            <div style="text-align: center;">
+                <h3> <span>About Svaja </span></h3>
+            </div>
+            <div class="mt-4" style="text-align: justify;">
+                <p>Founded on 12th September 2023, as a
+                    not-for-profit organization registered under the Section 8 of
+                    the
+                    Companies Act of 2013, Svaja Foundation was initiated with a strong belief that individuals in a
+                    society
+                    can improve their life conditions, if sustained interventions to improve their capabilities are
+                    carried
+                    out in a timely manner. It believes in the vast potential of the individuals that need to be
+                    nourished
+                    to help them achieve their dreams.
+                    <!-- </p> -->
+                    <!-- <p> -->
+                <p style="text-align: justify;" class="my-1"> In the context of the above, through focused need-based
+                    interventions,
+                    Svaja aims at enabling and
+                    empowering these individuals from the marginalized and disadvantaged sections of the society to
+                    improve
+                    upon their capabilities, to bring positive change in their life conditions, and their communities.
+                </p>
+                <!-- </p> -->
+                <!-- <p> -->
+                <p style="text-align: justify;" class="my-1">
+                    In India, the major hinderances behind persisting backwardness among these communities have been
+                    related
+                    to access to education, access to information and resources, lack of suitable skills and capacity,
+                    among
+                    others. Svaja believes that there is an urgent need to develop an ECOSYSTEM that facilitates
+                    solutions
+                    to these, and create an enabling environment for individuals to achieve, what they dream of. They
+                    can
+                    become change makers inspiring the society.</p>
+                </p>
+            </div>
+        </div>
+        <!-- about section end -->
+        <!-- sdgs contribution section start -->
+        <div class=" container my-4">
+            <div style="text-align: center;">
+                <h3> <span>SDGs Contribution</span></h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img-box text-center my-4 d-flex justify-content-center gap-lg-4 gap-md-3 gap-2">
+                <img src="./img/sdgs_img/sdgs1.jpg" alt="">
+                <img src="./img/sdgs_img/sdgs2.jpg" alt="">
+                <img src="./img/sdgs_img/sdgs3.jpg" alt="">
+                <img src="./img/sdgs_img/sdgs4.jpg" alt="">
+            </div>
+        </div>
+        <!-- sdgs contribution section end -->
+        <!-- footer_start  -->
+        <footer class="footer mt-5" style="background-color: transparent !important;">
+            <div class="footer_top row" style="padding-top: 20px !important; padding-bottom: 20px !important;">
+                <div class="container col-xl-4 col-md-6 col-lg-4">
+
+
+                    <div class="footer_widget">
+                        <div class="footer_logo">
+                            <a href="index.html">
+                                <img class="w-50" src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <p class="address_text"
+                            style="color: #000 !important; line-height: 30px; font-size: 16px !important;">
+                            Catalyzing Compassion, <br>
+                            Transforming Communities. Together,
+                            <br>
+                            we can create a brighter future.
+                        </p>
+                        <div class=" socail_links">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/SvajaFoundation" target="">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                            <a href="#">
+                                                <i class="ti-twitter-alt"></i>
+                                            </a>
+                                        </li> -->
+                                <li>
+                                    <a href="https://www.linkedin.com/company/svaja-foundation/" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-3">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Links
+                        </h3>
+                        <ul class="links">
+                            <li style="line-height: 30px !important;"><a class="f__link" href="index.html">Home</a>
+                            </li>
+                            <li style="line-height: 30px !important;"><a class="f__link" href="belief.html">Our
+                                    belief</a></li>
+                            <li style="line-height: 30px !important;"><a class="f__link"
+                                    href="gallery.html">Resources</a>
+                            </li>
+                            <li style="line-height: 30px !important;"><a class="f__link" href="origin.html">Our
+                                    origin</a></li>
+                            <li style="line-height: 30px !important;"><a class="f__link" href="engage.html">Engage
+                                    with us</a>
+                            </li>
+                            <li><a class="f__link" href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-xl-5 col-md-10 col-lg-5">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Contacts
+                        </h3>
+                        <div class="contacts">
+                            <p style="color: #000 !important; line-height: 30px; font-size: 16px !important;">
+                                Svaja Foundation <br>
+                                <span
+                                    style="color: #3A4291 !important; font-weight: bold;">CIN</span>U88900UP2023NPL188861
+                                <br>
+                                <!-- <span style="color: #3A4291 !important; font-weight: bold;">Contact Number</span>
+                                -+91- 956065566 <br> -->
+                                <span style="color: #3A4291 !important; font-weight: bold;">Mobile Number
+                                    - </span>+91-956-065-5661<br>
+                                <span style="color: #3A4291 !important; font-weight: bold;">Email
+                                    id - </span>info@svaja.org <br>
+                                <span style="color: #3A4291 !important; font-weight: bold;">Registered
+                                    office - </span>N3-1204A Eros
+                                Sampoornam, Sector -2, Greater Noida
+                                West,
+                                Gautam Buddha Nagar, Uttar Pradesh, India, 201306
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </footer>
+    </div>
+
+    <div class="mt-5" style="position: relative; bottom: 1; left: 0;">
+        <img class="footer-image" style="z-index: 1 !important; position: absolute; bottom: 1; left: 0;"
+            src="./img/desktop_down.png" alt="footer-image">
+
+
+        <div class="d-flex justify-content-start align-items-center footer-content-section"
+            style="position: absolute; left: 0; width: 100%; top: 25px; z-index: 3 !important;">
+            <p> All rights reserved | <a style="color: blue;" href="index.html" target="_blank">Svaja</a></p>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer_section end  -->
+    <!-- JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

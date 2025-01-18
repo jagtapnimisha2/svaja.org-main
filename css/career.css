@@ -1,0 +1,52 @@
+/* .image-container::after {
+    content: 'JOIN THE SMILE TEAM';
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    color: white;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+} */
+
+.responsive-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-caption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.career-btn {
+    background-color: #EF7F1A;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.career-btn:hover {
+    background-color: #fff;
+    color: #EF7F1A;
+    border: 1px solid #EF7F1A;
+
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .responsive-font-example {
+        font-size: 16pxpx;
+        text-align: center;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+    .responsive-font-example {
+        text-align: center;
+        font-size: 15px;
+    }
+}
